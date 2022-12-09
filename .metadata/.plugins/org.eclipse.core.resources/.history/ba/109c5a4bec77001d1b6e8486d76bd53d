@@ -1,0 +1,33 @@
+
+import java.util.Scanner;
+
+public class degre3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Entrer a :");
+		int a = scanner.nextInt();
+		
+		System.out.println("Entrer b :");
+		int b = scanner.nextInt();
+		
+		System.out.println("Entrer c :");
+		int c = scanner.nextInt();
+		
+		System.out.println("Entrer x :");
+		double x = scanner.nextDouble();
+		
+		double alpha = (a+b)/2;
+		double  beta = (a+b)*(a+b);
+		double gamma = a+b+c;
+		
+		double val = alpha*x*x*x + beta*x*x + gamma;
+		
+		System.out.println("La valeur du polynome est :" + val);
+
+
+	}
+
+}

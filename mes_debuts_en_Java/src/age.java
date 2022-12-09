@@ -1,0 +1,22 @@
+
+import java.util.Scanner;
+
+
+public class age {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Bienvenu dans le donneur d'année de naissance");
+		System.out.println("Votre age svp :");
+		int age = scanner.nextInt();
+		//System.out.println(age);
+		int year;
+		year = 2016 - age;
+		System.out.println("Votre année de naissance est :" + year);
+		
+
+	}
+
+}
